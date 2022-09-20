@@ -21,7 +21,10 @@ div.main{
     margin: auto;
     margin-top: 0.7%;
 }
-.userBtn{
+h3{
+    display: none;
+}
+/* .userBtn{
     height: calc(10vh);
     width: calc(12vw);
     margin-left: 1%;
@@ -32,7 +35,7 @@ div.main{
     font-weight: bold;
     font-size: 30px;
     border: 5px solid rgb(131, 131, 131);
-}
+} */
 .logoutBtn{
     height: calc(10vh);
     width: calc(12vw);
@@ -49,7 +52,7 @@ div.main{
     height: calc(10vh);
     width: calc(12vw);
     margin-left: 1%;
-    margin-top: 5%;
+    margin-top: 12%;
     cursor: pointer;
     background-color: rgb(123, 255, 211);
     font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +60,7 @@ div.main{
     font-size: 30px;
     border: 5px solid rgb(131, 131, 131);
 }
-.userBtn:hover, .logoutBtn:hover, .movieBtn:hover{
+.logoutBtn:hover, .movieBtn:hover{
     background-color: white;
     color: black;
     font-size: 35px;
@@ -86,6 +89,7 @@ div.main{
 .one{
     background: url(./assets/movieimg1.jpg);
     background-position: 50%;
+    opacity: 0.7;
     height: calc(60vh);
     width: calc(17vw);
     border-radius: 20px;
@@ -94,11 +98,13 @@ div.main{
     left: 2%;
     cursor: pointer;    
 }
-/* .one:hover{   
-} */
+.one:hover, .two:hover, .three:hover, .four:hover{
+    opacity: 1;
+}
 .two{
     background: url(./assets/movieimg2.jpg);
     background-position: 50%;
+    opacity: 0.7;
     height: calc(60vh);
     width: calc(17vw);
     border-radius: 20px;
@@ -110,6 +116,7 @@ div.main{
 .three{
     background: url(./assets/movieimg3.jpg);
     background-position: 50%;
+    opacity: 0.7;
     height: calc(60vh);
     width: calc(17vw);
     border-radius: 20px;
@@ -121,6 +128,7 @@ div.main{
 .four{
     background: url(./assets/movieimg4.jpg);
     background-position: 50%;
+    opacity: 0.7;
     height: calc(60vh);
     width: calc(17vw);
     border-radius: 20px;
@@ -140,7 +148,6 @@ div.main{
     border: 3px solid black;
 }
 .nameOne{
-    /* background-color: white; */
     position: absolute;
     top: 2%;
     left: 2%;

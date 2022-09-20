@@ -93,6 +93,7 @@ function directSignin() {
 // function onclick on signin / login btn
 
 function signinRemoval() {
+  // var xBtns = document.getElementById("xBtn").style.display = "block";
   var data = JSON.parse(window.localStorage.getItem("signupMain"));
 
   var siEmail = document.getElementById("email").value;
@@ -126,11 +127,6 @@ var profPic = document.getElementsByClassName("profilePic").value;
 var num = document.getElementsByClassName("number").value;
 var postCode = document.getElementsByClassName("postalCode").value;
 
-// function onclick on dashboard btn
-// function assignmentLinks() {
-//   var postLinks = document.getElementById("post1").style.display = "block";
-// }
-
 // function onclick on profile btn
 function userProfile() {
   var postLinks = document.getElementById("post1").style.display = "block";
@@ -147,23 +143,14 @@ function userProfile() {
   var number1 = document.getElementById("number").value;
   var postalCode1 = document.getElementById("postalCode").value;
 
-  var uName = window.localStorage.getItem(username1);
-  var uEmail = window.localStorage.getItem(email1);
-  var uPassword = window.localStorage.getItem(password1);
-  var uAddress = window.localStorage.getItem(address1);
-  var uGender = window.localStorage.getItem(selectedGender);
-  var uDob = window.localStorage.getItem(dob1);
-  var uNumber = window.localStorage.getItem(number1);
-  var uPostCode = window.localStorage.getItem(postalCode1);
-
-  var uNames = JSON.parse(uName);
-  var uEmails = JSON.parse(uEmail);
-  var uPasswords = JSON.parse(uPassword);
-  var uAddresses = JSON.parse(uAddress);
-  var uGenders = JSON.parse(uGender);
-  var uDobs = JSON.parse(uDob);
-  var uNumbers = JSON.parse(uNumber);
-  var uPostCodes = JSON.parse(uPostCode);
+  // var uName = window.localStorage.getItem(username1);
+  // var uEmail = window.localStorage.getItem(email1);
+  // var uPassword = window.localStorage.getItem(password1);
+  // var uAddress = window.localStorage.getItem(address1);
+  // var uGender = window.localStorage.getItem(selectedGender);
+  // var uDob = window.localStorage.getItem(dob1);
+  // var uNumber = window.localStorage.getItem(number1);
+  // var uPostCode = window.localStorage.getItem(postalCode1);
 
   // var uNames1 = document.getElementById("info1").innerHTML = uNames;
   // var uEmails1 = document.getElementById("info2").innerHTML = uEmails;
@@ -174,14 +161,14 @@ function userProfile() {
   // var uNumbers1 = document.getElementById("info7").innerHTML = uNumbers;
   // var uPostCodes1 = document.getElementById("info8").innerHTML = uPostCodes;
 
-  var uNames1 = document.getElementById("post1").innerHTML = uNames;
-  var uEmails1 = document.getElementById("post1").innerHTML = uEmails;
-  var uPasswords1 = document.getElementById("post1").innerHTML = uPasswords;
-  var uAddresses1 = document.getElementById("post1").innerHTML = uAddresses;
-  var uGenders1 = document.getElementById("post1").innerHTML = uGenders;
-  var uDobs1 = document.getElementById("post1").innerHTML = uDobs;
-  var uNumbers1 = document.getElementById("post1").innerHTML = uNumbers;
-  var uPostCodes1 = document.getElementById("post1").innerHTML = uPostCodes;
+  // var uNames1 = document.getElementById("post1").innerHTML = uNames;
+  // var uEmails1 = document.getElementById("post1").innerHTML = uEmails;
+  // var uPasswords1 = document.getElementById("post1").innerHTML = uPasswords;
+  // var uAddresses1 = document.getElementById("post1").innerHTML = uAddresses;
+  // var uGenders1 = document.getElementById("post1").innerHTML = uGenders;
+  // var uDobs1 = document.getElementById("post1").innerHTML = uDobs;
+  // var uNumbers1 = document.getElementById("post1").innerHTML = uNumbers;
+  // var uPostCodes1 = document.getElementById("post1").innerHTML = uPostCodes;
 
   // console.log("uNames1");
   // console.log("uEmails1");
@@ -192,3 +179,63 @@ function userProfile() {
   // console.log("uNumbers1");
   // console.log("uPostCodes1");
 }
+
+  var storage = window.localStorage.getItem("signupMain");
+
+  var uNames = JSON.parse(storage);
+  // var uEmails = JSON.parse(storage);
+  // var uPasswords = JSON.parse(storage);
+  // var uAddresses = JSON.parse(storage);
+  // var uGenders = JSON.parse(storage);
+  // var uDobs = JSON.parse(storage);
+  // var uNumbers = JSON.parse(storage);
+  // var uPostCodes = JSON.parse(storage);
+
+  var div = uNames.username;
+  var div1 = uNames.email;
+  var div2 = uNames.password;
+  var div3 = uNames.address;
+  var div4 = uNames.gender;
+  var div5 = uNames.dob;
+  var div6 = uNames.number;
+  var div7 = uNames.postCode;
+
+  var post = document.getElementById("post1");
+
+  var p = document.createElement("p");
+  var p1 = document.createElement("p");
+  var p2 = document.createElement("p");
+  var p3 = document.createElement("p");
+  var p4 = document.createElement("p");
+  var p5 = document.createElement("p");
+  var p6 = document.createElement("p");
+  var p7 = document.createElement("p");
+
+  var text = document.createTextNode(div);
+  var text1 = document.createTextNode(div1);
+  var text2 = document.createTextNode(div2);
+  var text3 = document.createTextNode(div3);
+  var text4 = document.createTextNode(div4);
+  var text5 = document.createTextNode(div5);
+  var text6 = document.createTextNode(div6);
+  var text7 = document.createTextNode(div7);
+
+  p.appendChild(text);
+  p1.appendChild(text1);
+  p2.appendChild(text2);
+  p3.appendChild(text3);
+  p4.appendChild(text4);
+  p5.appendChild(text5);
+  p6.appendChild(text6);
+  p7.appendChild(text7);
+
+  post.appendChild(p);
+  post.appendChild(p1);
+  post.appendChild(p2);
+  post.appendChild(p3);
+  post.appendChild(p4);
+  post.appendChild(p5);
+  post.appendChild(p6);
+  post.appendChild(p7);
+  
+  
