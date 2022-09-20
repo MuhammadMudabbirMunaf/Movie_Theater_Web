@@ -18,7 +18,7 @@ body{
     top: 0%;
     display: none;
 }
-.one{
+.three{
     background: url(./movieimg3.jpg);
     background-position: 50%;
     height: calc(80vh);
@@ -53,7 +53,7 @@ body{
     height: calc(14vh);
     width: calc(16vw);
     margin-left: 0.5%;
-    margin-top: 6%;
+    margin-top: 4%;
     cursor: pointer;
     background-color: rgb(123, 255, 211);
     font-family: Arial, Helvetica, sans-serif;
@@ -61,7 +61,22 @@ body{
     font-size: 30px;
     border: 5px solid rgb(131, 131, 131);
 }
-.filmDescription:hover, .bookSeat:hover{
+.backBtn{
+    height: calc(14vh);
+    width: calc(16vw);
+    margin-left: 0.5%;
+    margin-top: 4%;
+    cursor: pointer;
+    background-color: rgb(123, 255, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid rgb(131, 131, 131);
+}
+#back{
+    color: black;
+}
+.filmDescription:hover, .bookSeat:hover, .backBtn:hover{
     background-color: white;
     color: black;
     font-size: 35px;
