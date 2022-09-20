@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(2, 255, 150);
+}
+.main{
+    height: calc(85vh);
+    width: calc(85vw);
+    background-color: rgb(61, 61, 61);
+    position: absolute;
+    left: 10%;
+    top: 9%;
+}
+.container, .container2{
+    height: calc(85vh);
+    width: calc(68vw);
+    background-color: rgb(168, 168, 168);
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    display: none;
+}
+.one{
+    background: url(./movieimg1.jpg);
+    background-position: 50%;
+    height: calc(80vh);
+    width: calc(25vw);
+    border-radius: 20px;
+    position: absolute;
+    top: 3%;
+    left: 62%;
+    cursor: pointer;
+}
+.textOne, .textTwo, .textThree, .textFour, .textFive{
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.filmDescription{
+    height: calc(14vh);
+    width: calc(16vw);
+    margin-left: 0.5%;
+    margin-top: 9%;
+    cursor: pointer;
+    background-color: rgb(123, 255, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid rgb(131, 131, 131);
+}
+.bookSeat{
+    height: calc(14vh);
+    width: calc(16vw);
+    margin-left: 0.5%;
+    margin-top: 4%;
+    cursor: pointer;
+    background-color: rgb(123, 255, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid rgb(131, 131, 131);
+}
+.backBtn{
+    height: calc(14vh);
+    width: calc(16vw);
+    margin-left: 0.5%;
+    margin-top: 4%;
+    cursor: pointer;
+    background-color: rgb(123, 255, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid rgb(131, 131, 131);
+}
+#back{
+    color: black;
+}
+.filmDescription:hover, .bookSeat:hover , .backBtn:hover{
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    text-decoration: underline;
+    border: 5px solid rgb(123, 255, 211);
+}
+
+.mainText{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+.rowOneBtnOne, .rowOneBtnTwo, .rowOneBtnThree, .rowOneBtnFour, .rowOneBtnFive, .rowOneBtnSix,
+.rowOneBtnSeven, .rowOneBtnEight{
+    height: calc(9vh);
+    width: calc(7vw);
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    background-color: blue;
+    cursor: pointer;
+}
+.rowTwoBtnOne, .rowTwoBtnTwo, .rowTwoBtnThree, .rowTwoBtnFour, .rowTwoBtnFive, .rowTwoBtnSix,
+.rowTwoBtnSeven, .rowTwoBtnEight{
+    height: calc(9vh);
+    width: calc(7vw);
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    background-color: blue;
+    cursor: pointer;
+}
+.rowThreeBtnOne, .rowThreeBtnTwo, .rowThreeBtnThree, .rowThreeBtnFour, .rowThreeBtnFive, .rowThreeBtnSix, 
+.rowThreeBtnSeven, .rowThreeBtnEight{
+    height: calc(9vh);
+    width: calc(7vw);
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    background-color: blue;
+    cursor: pointer;
+}
+.rowFourBtnOne, .rowFourBtnTwo, .rowFourBtnThree, .rowFourBtnFour, .rowFourBtnFive, .rowFourBtnSix, 
+.rowFourBtnSeven, .rowFourBtnEight{
+    height: calc(9vh);
+    width: calc(7vw);
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    background-color: blue;
+    cursor: pointer;
+}
+.rowFiveBtnOne, .rowFiveBtnTwo, .rowFiveBtnThree, .rowFiveBtnFour, .rowFiveBtnFive, .rowFiveBtnSix, 
+.rowFiveBtnSeven, .rowFiveBtnEight{
+    height: calc(9vh);
+    width: calc(7vw);
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    background-color: blue;
+    cursor: pointer;
+}
+.rowSixBtnOne, .rowSixBtnTwo, .rowSixBtnThree, .rowSixBtnFour, .rowSixBtnFive, .rowSixBtnSix, 
+.rowSixBtnSeven, .rowSixBtnEight{
+    height: calc(9vh);
+    width: calc(7vw);
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.rowOneBtnOne:hover, .rowOneBtnTwo:hover, .rowOneBtnThree:hover, .rowOneBtnFour:hover, 
+.rowOneBtnFive:hover, .rowOneBtnSix:hover, .rowOneBtnSeven:hover, .rowOneBtnEight:hover,
+.rowTwoBtnOne:hover, .rowTwoBtnTwo:hover, .rowTwoBtnThree:hover, .rowTwoBtnFour:hover, 
+.rowTwoBtnFive:hover, .rowTwoBtnSix:hover, .rowTwoBtnSeven:hover, .rowTwoBtnEight:hover,
+.rowThreeBtnOne:hover, .rowThreeBtnTwo:hover, .rowThreeBtnThree:hover, .rowThreeBtnFour:hover, 
+.rowThreeBtnFive:hover, .rowThreeBtnSix:hover, .rowThreeBtnSeven:hover, .rowThreeBtnEight:hover,
+.rowFourBtnOne:hover, .rowFourBtnTwo:hover, .rowFourBtnThree:hover, .rowFourBtnFour:hover, 
+.rowFourBtnFive:hover, .rowFourBtnSix:hover, .rowFourBtnSeven:hover, .rowFourBtnEight:hover,
+.rowFiveBtnOne:hover, .rowFiveBtnTwo:hover, .rowFiveBtnThree:hover, .rowFiveBtnFour:hover, 
+.rowFiveBtnFive:hover, .rowFiveBtnSix:hover, .rowFiveBtnSeven:hover, .rowFiveBtnEight:hover,
+.rowSixBtnOne:hover, .rowSixBtnTwo:hover, .rowSixBtnThree:hover, .rowSixBtnFour:hover, 
+.rowSixBtnFive:hover, .rowSixBtnSix:hover, .rowSixBtnSeven:hover, .rowSixBtnEight:hover{
+    background-color: rgb(43, 255, 166);
+}
