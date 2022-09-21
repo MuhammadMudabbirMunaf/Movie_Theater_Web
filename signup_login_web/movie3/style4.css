@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(2, 255, 150);
+    background: url(./movieimg3.jpg);
 }
 .main{
     height: calc(85vh);
     width: calc(85vw);
-    background-color: rgb(61, 61, 61);
+    background-color: rgba(61, 61, 61, 0.541);
     position: absolute;
     left: 10%;
     top: 9%;
@@ -12,7 +12,7 @@ body{
 .container, .container2{
     height: calc(85vh);
     width: calc(68vw);
-    background-color: rgb(168, 168, 168);
+    background-color: rgba(168, 168, 168, 0.9);
     position: absolute;
     left: 20%;
     top: 0%;
